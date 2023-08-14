@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: ping-poller
-        image: raguyazhin/ping-poller-api:7.0.0
+        image: raguyazhin/ping-poller-api:8.0.0
         securityContext:
           capabilities:
             add:
