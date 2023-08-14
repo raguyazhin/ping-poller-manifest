@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:  ping-poller
+  name: ping-poller
   namespace: default
   labels:
-    app:  ping-poller
+    app: ping-poller
 spec:
   selector:
     matchLabels:
@@ -18,11 +18,11 @@ spec:
   template:
     metadata:
       labels:
-        app:  ping-poller
-    spec:      
+        app: ping-poller
+    spec:
       containers:
-      - name:  ping-poller
-        image: raguyazhin/ping-poller-api:1.0
+      - name: ping-poller
+        image: raguyazhin/ping-poller-api:7.0.0
         securityContext:
           capabilities:
             add:
