@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: ping-poller
-        image: dine297/ping-poller-doc-img:23.0.0
+        image: dine297/ping-poller-doc-img:24.0.0
         securityContext:
           capabilities:
             add:
